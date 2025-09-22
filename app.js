@@ -107,6 +107,8 @@ function App() {
   const handleBack = () => {
     if (question > 1) {
       setQuestion((prev) => prev - 1);
+    } else {
+      setStart(false);
     }
   };
 
